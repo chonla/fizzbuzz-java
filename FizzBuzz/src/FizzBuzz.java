@@ -3,7 +3,10 @@
  */
 public class FizzBuzz {
     public String get(Integer i) {
-        if (i == 3) {
+        if (i == 15) {
+            return "FizzBuzz";
+        }
+        if ((i % 3) == 0) {
             return "Fizz";
         }
         if (i == 5) {
