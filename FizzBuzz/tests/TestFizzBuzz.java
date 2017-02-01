@@ -32,4 +32,10 @@ public class TestFizzBuzz {
         String result = fizzbuzz.get(3);
         assertEquals("Fizz", result);
     }
+
+    @Test
+    public void testGiven5ShouldReturnBuzz() {
+        String result = fizzbuzz.get(5);
+        assertEquals("Buzz", result);
+    }
 }

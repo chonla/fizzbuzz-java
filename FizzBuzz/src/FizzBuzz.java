@@ -6,6 +6,9 @@ public class FizzBuzz {
         if (i == 3) {
             return "Fizz";
         }
+        if (i == 5) {
+            return "Buzz";
+        }
         return i.toString();
     }
 }
