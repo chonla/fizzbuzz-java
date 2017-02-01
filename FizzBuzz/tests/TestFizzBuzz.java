@@ -46,6 +46,12 @@ public class TestFizzBuzz {
     }
 
     @Test
+    public void testGiven10ShouldReturnBuzz() {
+        String result = fizzbuzz.get(10);
+        assertEquals("Buzz", result);
+    }
+
+    @Test
     public void testGiven15ShouldReturnFizzBuzz() {
         String result = fizzbuzz.get(15);
         assertEquals("FizzBuzz", result);
