@@ -9,7 +9,7 @@ public class FizzBuzz {
         if (isDivisibleBy3(i)) {
             return "Fizz";
         }
-        if (i % 5 == 0) {
+        if (isDivisibleBy5(i)) {
             return "Buzz";
         }
         return i.toString();
@@ -17,5 +17,9 @@ public class FizzBuzz {
 
     private Boolean isDivisibleBy3(Integer i) {
         return i % 3 == 0;
+    }
+
+    private Boolean isDivisibleBy5(Integer i) {
+        return i % 5 == 0;
     }
 }
