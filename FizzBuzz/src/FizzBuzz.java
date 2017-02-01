@@ -3,7 +3,7 @@
  */
 public class FizzBuzz {
     public String get(Integer i) {
-        if (i % 15 == 0) {
+        if (isDivisibleBy3(i) && isDivisibleBy5(i)) {
             return "FizzBuzz";
         }
         if (isDivisibleBy3(i)) {
