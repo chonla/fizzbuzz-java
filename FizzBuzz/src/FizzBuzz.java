@@ -6,12 +6,16 @@ public class FizzBuzz {
         if (i % 15 == 0) {
             return "FizzBuzz";
         }
-        if (i % 3 == 0) {
+        if (isDivisibleBy3(i)) {
             return "Fizz";
         }
         if (i % 5 == 0) {
             return "Buzz";
         }
         return i.toString();
+    }
+
+    private Boolean isDivisibleBy3(Integer i) {
+        return i % 3 == 0;
     }
 }
