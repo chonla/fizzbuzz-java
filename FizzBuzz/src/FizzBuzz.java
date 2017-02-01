@@ -3,6 +3,9 @@
  */
 public class FizzBuzz {
     public String get(int i) {
-        return "1";
+        if (i == 1) {
+            return "1";
+        }
+        return "2";
     }
 }
